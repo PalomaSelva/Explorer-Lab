@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="public/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RocketPay</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="app">
+        <header>
+          <h2><span>ROCKET</span>PAY</h2>
+          <svg width="17" height="21" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.20279 13.8617L1.19949 13.8662L1.1963 13.8707C1.0183 14.1227 0.619567 14.1968 0.307747 13.9765C0.0581329 13.8002 -0.0169037 13.4074 0.19565 13.097C0.512792 12.6927 0.743116 12.2201 0.894393 11.7581C1.05188 11.2771 1.12513 10.7305 1.12228 10.1944C1.11942 9.65838 1.04036 9.11262 0.877754 8.63333C0.721565 8.17295 0.486221 7.7028 0.164792 7.30194C-0.051056 6.99377 0.0197929 6.60017 0.267515 6.42122C0.576972 6.19769 0.976472 6.26749 1.15714 6.51761L1.16039 6.5221L1.16373 6.5265C1.5638 7.05405 1.89193 7.64018 2.08802 8.21523C2.29443 8.89171 2.42591 9.54608 2.42932 10.1875C2.43292 10.8624 2.36842 11.5013 2.12074 12.1302C1.85099 12.8151 1.58978 13.34 1.20279 13.8617ZM4.09538 15.1145L4.1032 15.1034L4.11037 15.0919C4.99707 13.6713 5.50852 11.957 5.49901 10.1711C5.4895 8.3857 4.96009 6.67737 4.05872 5.26646C3.86339 4.95669 3.95113 4.59045 4.28038 4.35261C4.50151 4.19288 4.91663 4.24944 5.16294 4.57952C6.18061 6.19416 6.79531 8.146 6.80606 10.1642C6.81717 12.2512 6.22375 14.1397 5.22241 15.7661C4.99077 16.085 4.63615 16.1743 4.33035 15.9936C3.99882 15.7507 3.93822 15.337 4.09538 15.1145ZM9.28606 2.45724L9.29481 2.47449L9.30492 2.49097C10.6839 4.73919 11.4502 7.33243 11.4652 10.1394C11.4801 12.945 10.7421 15.5451 9.38836 17.8072C9.18082 18.1409 8.83042 18.235 8.47519 18.0697C8.15189 17.859 8.06503 17.5098 8.2339 17.1571C9.38522 15.1125 10.1011 12.703 10.0875 10.1467C10.074 7.60176 9.40848 5.19618 8.15688 3.15136C7.98754 2.80221 8.07139 2.45448 8.39086 2.24137C8.77629 2.05725 9.15178 2.1922 9.28606 2.45724ZM13.3691 0.317663L13.3751 0.329447L13.3817 0.340883C15.0528 3.22941 16.0346 6.53184 16.0536 10.1149C16.0727 13.6943 15.1281 17.0039 13.491 19.9079C13.2831 20.2378 12.9343 20.3302 12.5808 20.1656C12.2585 19.9556 12.1712 19.608 12.3379 19.2564C13.915 16.5648 14.7643 13.4463 14.7466 10.1219C14.7288 6.78887 13.7717 3.68251 12.2427 1.0174C12.0511 0.628355 12.1861 0.247321 12.4535 0.111831C12.846 -0.0870443 13.2325 0.0479557 13.3691 0.317663Z" fill="white"/>
+          </svg>
+        </header>
+        <div class="flex">
+            <div class="txt-content">
+              <form action="">
+                  <div class="input-wrapped">
+                    <label for="number">Número do cartão</label>
+                    <br>
+                    <input type="text" id="number">
+                  </div>
+
+                  <div class="input-wrapped">
+                    <label for="name">Nome do titular</label>
+                    <br>
+                    <input type="text" id="name">
+                  </div>
+                  <div class="last-inputs"> 
+                    <div class="input-wrapped">
+                      <label for="expiration" >Expiração</label>
+                      <br>
+                      <input type="text" id="expiration">
+                    </div>
+                    
+                    <div class="input-wrapped">
+                      <label for="CVC">CVC</label>
+                      <br>
+                      <input type="text" id="CVC">
+                    </div>
+                  </div>
+                  <div class="input-wrapped">
+                    <button id="add-card" type="submit">ADICIONAR CARTÃO</button>
+                  </div>
+                </form>
+            </div>
+
+          <div class="cc">
+            <div class="cc-bg">
+              <svg width="360" height="230" viewBox="0 0 360 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_3_2547" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="360" height="230">
+                <rect width="360" height="230" rx="15.4011" fill="#16084C"></rect>
+              </mask>
+              <g mask="url(#mask0_3_2547)">
+                <g filter="url(#filter0_f_3_2547)">
+                  <path d="M451.518 -135.506C473.881 -89.3531 414.166 -13.4917 318.142 33.9349C222.118 81.3615 126.147 82.3939 103.784 36.2409C81.4215 -9.91221 141.136 -85.7735 237.16 -133.2C333.184 -180.627 429.156 -181.659 451.518 -135.506Z" fill="black"></path>
+                </g>
+                <g filter="url(#filter1_f_3_2547)">
+                  <path d="M399.134 -169.756C421.497 -123.603 361.783 -47.742 265.758 -0.315356C169.734 47.1113 73.7629 48.1437 51.4003 1.99062C29.0377 -44.1624 88.7521 -120.024 184.776 -167.45C280.8 -214.877 376.772 -215.909 399.134 -169.756Z" fill="gray"></path>
+                </g>
+              </g>
+              <defs>
+                <filter id="filter0_f_3_2547" x="43.2629" y="-225.286" width="468.777" height="351.306" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                  <feGaussianBlur stdDeviation="27.9144" result="effect1_foregroundBlur_3_2547"></feGaussianBlur>
+                </filter>
+                <filter id="filter1_f_3_2547" x="-9.12087" y="-259.536" width="468.777" height="351.306" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                  <feGaussianBlur stdDeviation="27.9144" result="effect1_foregroundBlur_3_2547"></feGaussianBlur>
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="card-text">
+
+            <div class="cc-logo">
+              <span><img src="public/icon.svg" alt=""></span>
+              <span><img src="public/visa.svg" alt=""></span>
+            </div>
+            <div class="cc-info">
+              <div class="cc-number">1234 5678 9123 9123</div>
+              <div class="cc-info-wrapped">
+                <div class="cc-input">Nome do titular</div> 
+                <div class="cc-value name">Blair Walldorf</div>
+              </div>
+              <div class="flex">
+                <div class="cc-info-wrapped">
+                <div class="cc-input">Expiração</div> 
+                <div class="cc-value exp">02/30</div>
+              </div>
+              <div class="cc-info-wrapped">
+                <div class="cc-input">CVC</div> 
+                <div class="cc-value cvc">115</div>
+              </div>
+              <img src="public/chip.svg" alt="chip">
+            </div>
+          </div>
+        </div>
+        </div>
+          </div>
+        </div>
+  </div>
+
+  </div>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
