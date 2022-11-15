@@ -1,6 +1,12 @@
 @import 'responsive.css';
 @import 'card.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -11,7 +17,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  box-sizing: border-box;
+
 }
 
 body {
@@ -28,7 +34,7 @@ body {
 }
 
 #app{
-  width: 54% ;
+  width: 60% ;
   background-color: #202024;
   padding: 28px 48px;
   border: 1px solid #323238;
@@ -38,7 +44,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  gap: 20px;
 }
 header{
   display: flex;
@@ -58,6 +64,7 @@ header span{
   font-weight: 600;
   color: #E1E1E6;
   margin:16px 0px ;
+  
 }
 .input-wrapped input{
   border-radius: 6px;
@@ -94,13 +101,16 @@ header span{
 button{
   padding: 16px 0;
   width: 100%;
+  font-size: .9rem;
   border-radius: 6px;
   background-color: #42D3FF;
   font-weight: 900;
   border: none;
-  transition: all .5s;
+  transition: all .2s;
+  letter-spacing: .3px;
 }
 button:hover{
-  background-color: #6cd9fa;
+  background-color: #128aae;
+  color: #ffffff;
 }
 
