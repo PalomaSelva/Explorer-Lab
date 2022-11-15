@@ -46,3 +46,6 @@
     position: absolute;
     z-index: 0;
 }
+#visa, #mastercard{
+    display: none;
+}
