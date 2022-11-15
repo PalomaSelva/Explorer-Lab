@@ -1,11 +1,3 @@
-import './css/style.css';
-import IMask from 'imask';
-
-const bgShadow1 = window.document.querySelector('.cc svg > g g:nth-child(1) path')
-const bgShadow2 = window.document.querySelector('.cc svg > g g:nth-child(2) path')
-const ccIcon = window.document.querySelector('.cc-logo span:nth-child(2) img:nth-child(1)')
-
-
 function setCardType(type){
     const colors ={
         visa:["#2D57F2","#436D99"],
@@ -18,6 +10,14 @@ function setCardType(type){
     bgShadow2.setAttribute('fill',colors[type][1])
     ccIcon.setAttribute("src", `./public/${type}.svg`)
 }
+import './css/style.css';
+import IMask from 'imask';
+
+const bgShadow1 = window.document.querySelector('.cc svg > g g:nth-child(1) path')
+const bgShadow2 = window.document.querySelector('.cc svg > g g:nth-child(2) path')
+const ccIcon = window.document.querySelector('.cc-logo span:nth-child(2) img:nth-child(1)')
+
+
 
 
 //setCardType('default')
