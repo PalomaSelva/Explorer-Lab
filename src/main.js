@@ -7,7 +7,7 @@ function setCardType(type){
         default:["black","gray"],
     }
     
-    const img = new URL('./public/${type}.png', import.meta.url)
+    const img = new URL('./public/${type}.svg', import.meta.url)
 
     bgShadow1.setAttribute('fill',colors[type][0])
     bgShadow2.setAttribute('fill',colors[type][1])
