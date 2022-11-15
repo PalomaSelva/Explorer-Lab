@@ -28,7 +28,7 @@ body {
 }
 
 #app{
-  width: 58% ;
+  width: 54% ;
   background-color: #202024;
   padding: 28px 48px;
   border: 1px solid #323238;
@@ -86,7 +86,9 @@ header span{
 }
 
 .txt-content{
-  max-width: 100%;
+ 
+  min-width:50% ;
+
 }
 
 button{
