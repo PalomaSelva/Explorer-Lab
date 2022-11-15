@@ -8,7 +8,7 @@ function setCardType(type){
 
     bgShadow1.setAttribute('fill',colors[type][0])
     bgShadow2.setAttribute('fill',colors[type][1])
-    ccIcon.setAttribute("src", `./public/${type}.svg`)
+    ccIcon.setAttribute("src", `./public/rosegolde.png`)
 }
 import './css/style.css';
 import IMask from 'imask';
